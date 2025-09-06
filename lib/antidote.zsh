@@ -6,7 +6,7 @@
 
 # Keep all 3 for different test scenarios.
 ANTIDOTE_REPO=$ANTIDOTE_HOME/mattmc3/antidote
-# ANTIDOTE_REPO=~/Projects/mattmc3/antidote
+# ANTIDOTE_REPO=~/Workspace/mattmc3/antidote
 # ANTIDOTE_REPO=${HOMEBREW_PREFIX:-/opt/homebrew}/opt/antidote/share/antidote
 
 zstyle ':antidote:home' path $ANTIDOTE_HOME
@@ -21,5 +21,5 @@ if [[ ! -d $ANTIDOTE_REPO ]]; then
 fi
 
 # Load antidote
-source $ANTIDOTE_REPO/antidote.zsh
+. $ANTIDOTE_REPO/antidote.zsh
 antidote load

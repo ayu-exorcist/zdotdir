@@ -42,7 +42,7 @@ Install this dotfiles repo to your `$ZDOTDIR`:
 export ZDOTDIR=~/.config/zsh
 
 # clone this repo
-git clone --recursive git@github.com:mattmc3/zdotdir.git $ZDOTDIR
+git clone --recursive git@github.com:ayu-exorcist/zdotdir.git $ZDOTDIR
 
 # change the root .zshenv file to use ZDOTDIR
 cat << 'EOF' >| ~/.zshenv
@@ -50,8 +50,8 @@ export ZDOTDIR=~/.config/zsh
 [[ -f $ZDOTDIR/.zshenv ]] && . $ZDOTDIR/.zshenv
 EOF
 
-# load zsh
-zsh
+# exec zsh or restart zsh
+exec zsh
 ```
 
 ## Performance
@@ -113,12 +113,8 @@ If you prefer a naive, completely meaningless Zsh 'exit' benchmark, I include th
 Install [nerd fonts][nerd-fonts] via homebrew:
 
 ```zsh
-brew tap homebrew/cask-fonts
-brew install --cask font-meslo-lg-nerd-font
+brew install --cask font-jetbrains-mono-nerd-font
 brew install --cask font-fira-code-nerd-font
-brew install --cask font-hack-nerd-font
-brew install --cask font-inconsolata-nerd-font
-brew install --cask font-sauce-code-pro-nerd-font
 ```
 
 ### Color schemes
@@ -128,12 +124,11 @@ just iTerm2.
 
 I use Space Gray:
 
-<p align="center">
-  <img alt="space gray" src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/space_gray.png?raw=true"/>
-</p>
+![space gray](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/spacegray.png?raw=true)
 
 ## Resources
 
+- [homebrew][homebrew]
 - [fish][fish]
 - [antidote][antidote]
 - [zephyr][zephyr]
@@ -153,8 +148,6 @@ I use Space Gray:
 [nerd-fonts]: https://github.com/ryanoasis/nerd-fonts
 [oh-my-zsh]: https://github.com/ohmyzsh/ohmyzsh
 [prezto]: https://github.com/sorin-ionescu/prezto
-[starship-toml]: https://github.com/mattmc3/zdotdir/blob/main/prompt/starship.toml
-[starship]: https://starship.rs
 [supercharge-zsh]: https://blog.callstack.io/supercharge-your-terminal-with-zsh-8b369d689770
 [zdotdir_gif]: https://raw.githubusercontent.com/mattmc3/zdotdir/resources/img/zdotdir.gif
 [zephyr]: https://github.com/zshzoo/zephyr

@@ -11,7 +11,7 @@ alias zprofrc="ZPROFRC=1 zsh"
 # # Initialization code that may require console input (password prompts, [y/n]
 # # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+  . "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # Add custom completions
@@ -23,16 +23,16 @@ fpath=(${ZDOTDIR:-$HOME/.config/zsh}/completions $fpath)
 # autoload -Uz $ZFUNCDIR/*(.:t)
 
 # Set any zstyles you might use for configuration.
-[[ ! -f ${ZDOTDIR:-$HOME}/.zstyles ]] || source ${ZDOTDIR:-$HOME}/.zstyles
+[[ ! -f ${ZDOTDIR:-$HOME}/.zstyles ]] || . ${ZDOTDIR:-$HOME}/.zstyles
 
 # Set zsh_custom dev location for use in antidote plugins.
-ZSH_CUSTOM_DEV=$HOME/Projects/mattmc3/zsh_custom
+ZSH_CUSTOM_DEV=$HOME/Workspace/ayu/zsh_custom
 
 # Create an amazing Zsh config using antidote plugins.
-source ${ZDOTDIR:-$HOME/.config/zsh}/lib/antidote.zsh
+. ${ZDOTDIR:-$HOME/.config/zsh}/lib/antidote.zsh
 
 # To customize prompt, run `p10k configure` or edit .p10k.zsh.
-[[ ! -f ${ZDOTDIR:-$HOME}/.p10k.zsh ]] || source ${ZDOTDIR:-$HOME}/.p10k.zsh
+[[ ! -f ${ZDOTDIR:-$HOME}/.p10k.zsh ]] || . ${ZDOTDIR:-$HOME}/.p10k.zsh
 
 # Never start in the root file system. Looking at you, Zed.
 [[ "$PWD" != "/" ]] || cd

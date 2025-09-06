@@ -153,7 +153,7 @@ fi
 | Check if a string is empty or not defined                       | `if [[ -z $VARNAME ]];`      |
 | Check if a string is defined and not empty                      | `if [[ -n $VARNAME ]];`      |
 | Check if a file exists                                          | `if [[ -f "filepath" ]];`    |
-| Check if a directory exists                                     | `if [[ -d "dirpath" ]]; `    |
+| Check if a directory exists                                     | `if [[ -d "dirpath" ]];`    |
 | Check if a symbolic link exists                                 | `if [[ -L "symlinkpath" ]];` |
 | Check if a shell option is set                                  | `if [[ -o OPTION_NAME ]];`   |
 | Check if two values are equal                                   | `if [[ $VAR1 = $VAR2 ]];`    |
@@ -165,7 +165,7 @@ fi
 
 Note that the `$` symbol preceding variables' names in arithmetic expression (`((...))`) are purely optional, so you can perfectly write `if (( VAR1 < VAR2 ));` for instance.
 
-You can read all dash `-` options in Zsh's manual, as there are many different ones: http://zsh.sourceforge.net/Doc/Release/Conditional-Expressions.html
+You can read all dash `-` options in Zsh's manual, as there are many different ones: <http://zsh.sourceforge.net/Doc/Release/Conditional-Expressions.html>
 
 ## Loops
 

@@ -1,5 +1,5 @@
 # Move zephyr files into lib directory
-: ${ZEPHYR_HOME:=$HOME/Projects/mattmc3/zephyr}
+: ${ZEPHYR_HOME:=$HOME/Workspace/ayu/zephyr}
 
 # rm -- $ZDOTDIR/lib/*.zsh
 cp -f $ZEPHYR_HOME/plugins/helper/helper.plugin.zsh $ZDOTDIR/lib/archive/__init__.zsh

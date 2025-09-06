@@ -250,7 +250,6 @@ Asterisk (\*) indicates the option is on by default for native zsh.
 | VI              | Use vi modal editing. Prefer `bindkey -v` |
 | ZLE             | Line editor used to input lines           |
 
-
 [16.2.1]:   https://zsh.sourceforge.io/Doc/Release/Options.html#Changing-Directories
 [16.2.2]:   https://zsh.sourceforge.io/Doc/Release/Options.html#Completion-4
 [16.2.3]:   https://zsh.sourceforge.io/Doc/Release/Options.html#Expansion-and-Globbing
