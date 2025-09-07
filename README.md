@@ -113,8 +113,8 @@ If you prefer a naive, completely meaningless Zsh 'exit' benchmark, I include th
 Install [nerd fonts][nerd-fonts] via homebrew:
 
 ```zsh
+brew install --cask font-hack-nerd-font
 brew install --cask font-jetbrains-mono-nerd-font
-brew install --cask font-fira-code-nerd-font
 ```
 
 ### Color schemes
