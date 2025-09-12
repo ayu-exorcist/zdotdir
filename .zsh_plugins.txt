@@ -65,7 +65,7 @@ ayu-exorcist/zsh_custom path:plugins/dotnet
 ayu-exorcist/zsh_custom path:plugins/git
 ayu-exorcist/zsh_custom path:plugins/git-cmds
 # ayu-exorcist/zsh_custom path:plugins/golang
-ayu-exorcist/zsh_custom path:plugins/gpg:is-macos
+ayu-exorcist/zsh_custom path:plugins/gpg conditional:is-macos
 ayu-exorcist/zsh_custom path:plugins/iwd
 ayu-exorcist/zsh_custom path:plugins/jupyter
 ayu-exorcist/zsh_custom path:plugins/otp
