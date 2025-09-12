@@ -52,6 +52,7 @@ romkatv/powerlevel10k
 # Custom
 #
 
+ayu-exorcist/zsh_custom path:plugins/mise
 ayu-exorcist/zsh_custom path:plugins/azure
 # ayu-exorcist/zsh_custom path:plugins/clipboard
 ayu-exorcist/zsh_custom path:plugins/color
