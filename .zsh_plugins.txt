@@ -65,12 +65,12 @@ ayu-exorcist/zsh_custom path:plugins/dotnet
 ayu-exorcist/zsh_custom path:plugins/git
 ayu-exorcist/zsh_custom path:plugins/git-cmds
 # ayu-exorcist/zsh_custom path:plugins/golang
-ayu-exorcist/zsh_custom path:plugins/gpg
+ayu-exorcist/zsh_custom path:plugins/gpg:is-macos
 ayu-exorcist/zsh_custom path:plugins/iwd
 ayu-exorcist/zsh_custom path:plugins/jupyter
 ayu-exorcist/zsh_custom path:plugins/otp
 ayu-exorcist/zsh_custom path:plugins/prj
-ayu-exorcist/zsh_custom path:plugins/python
+# ayu-exorcist/zsh_custom path:plugins/python
 ayu-exorcist/zsh_custom path:plugins/secrets
 # ayu-exorcist/zsh_custom path:plugins/todotxt
 # ayu-exorcist/zsh_custom path:plugins/up
