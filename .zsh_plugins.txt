@@ -7,7 +7,6 @@
 #
 
 ayu-exorcist/zsh_custom path:lib
-# ayu-exorcist/zsh_custom path:plugins/p10k-instaprompt
 ayu-exorcist/zsh_custom path:plugins/xdg
 ayu-exorcist/zsh_custom path:plugins/history
 ayu-exorcist/zsh_custom path:plugins/environment
